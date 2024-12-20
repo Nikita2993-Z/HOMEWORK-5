@@ -750,5 +750,52 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;}
 
- 
-    
+ .form-footer-text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+ }
+.form-footer {
+    display: flex;
+}
+.label-footer {
+    gap: 24px;
+}
+.input-footer {
+    border: 1px solid #fff;
+border-radius: 4px;
+width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: transparent; 
+font-size: 12px; 
+line-height: 2; 
+letter-spacing: 0.04em;
+padding-left: 16px; 
+border-radius: 4px;
+color: #ffffff; 
+}
+.input-footer::placeholder {
+    color: #ffffff;
+}
+.btn-form-footer {
+    min-width: 165px;
+    height: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff ;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+.footer-form-icon {
+    margin-left: 16px; 
+}
