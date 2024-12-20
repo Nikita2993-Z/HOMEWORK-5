@@ -637,7 +637,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .form-user-input:focus+ .form-user-icon{
-    fill:#999;
+    fill:#4d5ae5;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-user-icon:hover,
@@ -720,7 +720,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
    fill: #F4F4FD;
 
 } */
-
+.checkbox:checked +.custom-checkbox {
+    border: none;
+    background-color: #404bbf;;
+    fill: #F4F4FD;}
 .checkbox.custom-checkbox-icon:focus {
     fill: #4D5AE5;
 }
