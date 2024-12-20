@@ -726,7 +726,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .custom-checkbox-icon {
 }
 .blue {
-    display: block;
+    
+    line-height: 1.33333;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
 }
 .form-wrapper-checkbox {
     margin-bottom: 24px;
@@ -756,9 +760,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+margin-bottom: 16px; 
  }
 .form-footer {
     display: flex;
+    gap: 24px;
 }
 .label-footer {
     gap: 24px;
@@ -799,4 +805,8 @@ color: #ffffff;
 .footer-form-icon {
     margin-left: 16px; 
     fill: #fff;
+}
+.form-container-footer {
+    padding-left: 80px;
+    
 }
