@@ -549,7 +549,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 
 }
 .modal-close { 
@@ -652,7 +652,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.form-contact.mb-16 {margin-bottom: 16px;}
+.form-contact.mb {margin-bottom: 16px;}
 
 .form-user-icon-wrapper {
     position: relative;
