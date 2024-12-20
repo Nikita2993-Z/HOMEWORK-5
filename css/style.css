@@ -530,7 +530,6 @@ padding: 100px 0;
     padding-right: 24px;
     padding-top: 72px;
     padding-bottom: 24px;
-    margin-bottom: 8px;
 width: 408px;
 min-height: 584px;
 background-color: #fcfcfc;
@@ -653,7 +652,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-
+.form-contact.mb-16 {margin-bottom: 16px;}
 
 .form-user-icon-wrapper {
     position: relative;
